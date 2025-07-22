@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #1d3557;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 1px black;
+}
+p {
+  padding: 5px 10px;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background-image: url("images/bengaluru.png");
+  background-size: cover;
+  height: 320px;
+  border-radius: 10px;
+}
+#heroTitle {
+  background: #1d3557;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 122px 0 10px 0;
+  width: 250px;
+  height: 42px;
+}
+#heroSubTitle {
+  background: #457b9d;
+  border-radius: 5px;
+  width: 412px;
+  height: 42px;
+}
+.activityimage {
+  border-radius: 50%;
+}
+#activitieslist {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+#activities {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.activitytitle {
+  font-weight: bold;
+}
+
+#card {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  background: #a8dacc;
+  border-radius: 10px;
+  border-bottom: 6px solid #1d3557;
+}
+#cardimage {
+  height: 264px;
+  width: 180px;
+  padding-top: 25px;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
